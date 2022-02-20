@@ -36,3 +36,7 @@ npm-debug.log
 .env
 
 config.js
+
+.serverless/
+
+dist/

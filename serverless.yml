@@ -3,8 +3,8 @@ service: github-workflow-hook
 provider:
   name: aws
   runtime: nodejs14.x
-  stage: dev
-  region: us-east-1
+  stage: prod
+  region: us-west-2
 
 plugins:
   - serverless-offline

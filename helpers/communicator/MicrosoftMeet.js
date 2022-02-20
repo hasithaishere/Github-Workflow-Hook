@@ -19,7 +19,7 @@ class MicrosoftMeet extends BaseCommunicator {
             activityImage = 'https://i.ibb.co/gr5pJBX/failure.png';
         }
 
-        let activityTitle = this.options.repoName.replaceAll('-', ' ');
+        let activityTitle = this.options.repoName.replace(/-/g, ' ');
         activityTitle = `${activityTitle[0].toUpperCase()}${activityTitle.slice(1)} Project`;
 
         const card = {
